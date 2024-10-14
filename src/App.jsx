@@ -1,3 +1,4 @@
+import TimerApp from "./components/TimerApp"
 
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl text-center font-bold underline bg-green-600">
-    Timer App
-    </h1>
+    <TimerApp />
     </>
   )
 }
